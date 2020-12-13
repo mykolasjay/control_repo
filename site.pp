@@ -1,10 +1,10 @@
 node default {
-  file {'/home/mykolas/README':
+  file {'/home/vagrant/README':
     ensure => file,
     content => 'This is a readme',
     owner => 'root',
   }
-  file {'/home/mykolas/README2':
+  file {'/home/vagrant/README2':
     ensure => file,
     content => 'This is a readme2',
     owner => 'mykolas',  
